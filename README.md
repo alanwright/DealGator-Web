@@ -1,7 +1,4 @@
-DealGator-Web
-=============
+UCF.COP4331.DealsAggregator.Web
+===============================
 
-DealGator - Front end development.
-
-
-test
+Repository for the web half of the team
