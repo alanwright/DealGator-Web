@@ -323,16 +323,28 @@ h1.signin a{
 	
 }
 
+#contact_form h7{
+	color: #999999;
+	margin-left: 25px;
+	font-size: 22px;
+	margin-top: 120px;
+	float:left;
+	text-align:left;
+	position:absolute;
+	
+}
+
 #contact_form input.txt{
 	width:250px; 
 	height:30px;
-	margin-top: 20px;
-	margin-right:50px;
+	margin-top: 27px;
+	margin-left:160px;
 	float: center;
 	padding: 5px 0px 0px 5px;
 	font-size:22px; 
 	color:#000000; 
 	border:0;
+	position:absolute;
 	
 	outline:none;
     transition: all 0.25s ease-in-out;
@@ -346,12 +358,14 @@ h1.signin a{
  #contact_form textarea.txt2{
 	width:400px; 
 	height:100px;
-	margin-top: 50px;
+	margin-top: 100px;
+	margin-left:160px;
 	float: center;
 	padding: 5px 0px 0px 5px;
 	font-size:10px; 
 	color:#000000; 
 	border:0;
+	position:absolute;
 	
 	
 	outline:none;
@@ -364,16 +378,16 @@ h1.signin a{
     border:1.5px solid rgba(0,0,0, 0.2);
  }
  #contact_form input.sendBtn{
-	width: 50px;
-	height: 20px;
-	margin-top:215px;
+	width: 150px;
+	height: 30px;
+	margin-top:230px;
 	margin-left:50px;
 	position:absolute; 
 	float:left;
 	border:0; 
 	cursor:pointer; 
 	float: right;
-	background:url(../images/searchBtn.png) no-repeat;
+	background:url(../images/submitBtn.png) no-repeat;
 /******************************************************************************
 * Featured
 ******************************************************************************/
