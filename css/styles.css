@@ -379,12 +379,11 @@ h1.signin a{
     border:1.5px solid rgba(0,0,0, 0.2);
  }
  #contact_form input.sendBtn{
-	width: 150px;
+	width: 90px;
 	height: 30px;
 	margin-top:270px;
 	margin-left:160px;
 	position:absolute; 
-	float:left;
 	border:0; 
 	cursor:pointer; 
 	float: right;
