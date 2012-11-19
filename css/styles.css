@@ -316,9 +316,9 @@ h1.signin a{
 
 #contact_form h6{
 	color: #999999;
-	margin-left: 10px;
+	margin-left: 160px;
 	font-size: 22px;
-	margin-top: 30px;
+	margin-top: 25px;
 	float:left;
 	text-align:left;
 	
@@ -326,7 +326,7 @@ h1.signin a{
 
 #contact_form h7{
 	color: #999999;
-	margin-left: 25px;
+	margin-left: 160px;
 	font-size: 22px;
 	margin-top: 120px;
 	float:left;
@@ -338,7 +338,7 @@ h1.signin a{
 #contact_form input.txt{
 	width:250px; 
 	height:30px;
-	margin-top: 27px;
+	margin-top: 60px;
 	margin-left:160px;
 	float: center;
 	padding: 5px 0px 0px 5px;
@@ -359,7 +359,7 @@ h1.signin a{
  #contact_form textarea.txt2{
 	width:400px; 
 	height:100px;
-	margin-top: 100px;
+	margin-top: 150px;
 	margin-left:160px;
 	float: center;
 	padding: 5px 0px 0px 5px;
@@ -381,8 +381,8 @@ h1.signin a{
  #contact_form input.sendBtn{
 	width: 150px;
 	height: 30px;
-	margin-top:230px;
-	margin-left:50px;
+	margin-top:270px;
+	margin-left:160px;
 	position:absolute; 
 	float:left;
 	border:0; 
