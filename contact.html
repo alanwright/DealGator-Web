@@ -1,5 +1,5 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>DealGator</title>
@@ -7,6 +7,7 @@
 
 <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="javascript/contact.js"></script>
 
 </head>
 
@@ -24,11 +25,10 @@
 	<div id="contact_form">
 		<h5> Contact us </h5>
 		<h6>Email Address:</h6>
-		<input name="Email" type="text" class="txt"placeholder="example@gmail.com" autofocus = "autofocus">
+		<input id="email" type="text" class="txt" placeholder="example@gmail.com" autofocus = "autofocus">
 		<h7>Comments:</h7>
-		<textarea name="VisitorComment" class="txt2" placeholder="Please leave your comments here">
-		</textarea>
-		<input name="mailBtn" type="submit" class="sendBtn" value="" />
+		<textarea id ="message" class="txt2" placeholder="Please leave your comments here"></textarea>
+		<a id = "mail" href"#"> <input id="mailBtn" type="button" class="sendBtn" onclick="setMailTo()"/> </a>
 	</div>
 
 </div>

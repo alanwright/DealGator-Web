@@ -243,7 +243,7 @@ h1.signin a:hover{
 	padding-bottom: 6px;
 	float:left;
 	text-align:left;
-	
+
 }
 
 #login_form h7{
@@ -308,6 +308,7 @@ h1.signin a:hover{
 	position: relative;
 	margin: 0 auto;
 	padding-top: 40px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #contact_form h4{
@@ -421,13 +422,12 @@ h1.signin a:hover{
  #contact_form input.sendBtn{
 	width: 150px;
 	height: 30px;
-	margin-top:270px;
-	margin-left:160px;
+	margin-top:275px;
+	margin-left:-150px;
 	position:absolute; 
 	float:left;
 	border:0; 
 	cursor:pointer; 
-	float: right;
 	background:url(../images/submitBtn.png) no-repeat;
 }
 
