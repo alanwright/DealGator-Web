@@ -1,15 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>DealGator</title>
+
+<!--Google Fonts-->
 <link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<!--Favicon-->
+<link rel="shortcut icon" href="./images/favicon.ico"/>
 </head>
 
 
 <body>
+	
+	<!--Navigation Bar-->
 	<div id="nav">
   
 		<h1 class="title"> <a href="index.html">DealGator</a></h1>
@@ -18,50 +25,51 @@
 	
 	</div>
 	
-<div id="content" >
-	<div id="searchBar">
-		<input name="search" type="text" class="txt" placeholder="Search here!" autofocus = "autofocus"/>
-		<input name="search-btn" type="submit" class="searchBtn" value="" />
+	<div id="content" >
+	
+		<!--Search bar-->
+		<div id="searchBar">
+			<input name="search" type="text" class="txt" placeholder="Search here!" autofocus = "autofocus"/>
+			<input name="search-btn" type="submit" class="searchBtn" value="" />
+		</div>
+		
+		<!--Featured Deals-->
+		<div id = "featured">
+			<img id="featured_main" src="images/featured/nexus7.png" alt="Nexus7">
+			<img id="featured_top" src="images/featured/sonyVaio.jpeg" alt="Sony Viao">
+			<img id="featured_bottom" src="images/featured/iPhone.jpg" alt="iPhone">
+		</div>
+
 	</div>
-   	
-   	<div id = "featured">
-   		<img id="featured_main" src="images/featured/nexus7.png" alt="Nexus7">
-   		<img id="featured_top" src="images/featured/sonyVaio.jpeg" alt="Sony Viao">
-   		<img id="featured_bottom" src="images/featured/iPhone.jpg" alt="iPhone">
+
+	<!--Welcome banner-->	
+	<div id="welcome">
+	   <div id="welcome_pan">
+			<h1>DealGator is your personal deal aggregator.</h1>
+			<h2><a href="signup.html">Sign up</a> for email or text message alerts pushed right to you when a price drop occurs.</h2>
+	   </div>
 	</div>
 
-</div>
 
-
-<div id="welcome">
-   
-   <div id="welcome_pan">
-		<h1>DealGator is your personal deal aggregator.</h1>
-		<h2><a href="signup.html">Sign up</a> for email or text message alerts pushed right to you when a price drop occurs.</h2>
-   </div>
-
-</div>
-
-
-
-<div id="foot">
-	<div id="foot_text">
-		<h6><a href="index.html">DealGator</a></h6>
-		<ul>
-			<li><a href="about.html">About</a></li>
-			<li class="space">|</li>
-			<li><a href="faq.html">FAQ</a></li>
-			<li class="space">|</li>
-			<li><a class="active" href="contact.html">Contact</a></li>
-		</ul>
-		<p>© DealGator</p>
+	<!--footer-->
+	<div id="foot">
+		<div id="foot_text">
+			<h6><a href="index.html">DealGator</a></h6>
+			<ul>
+				<li><a href="about.html">About</a></li>
+				<li class="space">|</li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li class="space">|</li>
+				<li><a class="active" href="contact.html">Contact</a></li>
+			</ul>
+			<p>© DealGator</p>
+		</div>
+		<div id="foot_chomped">
+			<img id="foot_gator" src="images/DealGator_green.png" alt="DealGator Logo">
+			<div id="foot_chompedNum">23,452</div>
+			<div id="foot_chompedText">Deals Chomped!</div>
+		</div>
 	</div>
-	<div id="foot_chomped">
-		<img id="foot_gator" src="images/DealGator_green.png" alt="DealGator Logo">
-		<div id="foot_chompedNum">23,452</div>
-		<div id="foot_chompedText">Deals Chomped!</div>
-	</div>
-</div>
 
 </body>
 </html>
