@@ -692,6 +692,117 @@ h1.signin a:hover{
 }
 
 /*************************************************************************
+*Frequently Asked Question
+*************************************************************************/
+#faq_head{
+	width: 100%;
+	position: relative;
+	margin-top: -2px;
+	background-color: #156903;
+	padding-bottom:15px;
+}
+#faq_head h1{
+	text-align:center;
+	width: 700px;
+	margin: 0 auto;
+	padding-top:10px;
+	font-size:64px;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	text-shadow: 0 2px 1px #156100;
+	font-weight:300px;
+	letter-spacing:-4px;
+	
+	border-bottom:#c9c9c9 solid 1px;
+	-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+#faq_head_text{
+	width: 700px;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #156903;
+}
+#faq_head_text h4{
+	text-align:center;
+	marin-left:50px;
+	font-size:20px;
+	color:#ffffff;
+	font-family: 'Droid Sans', sans-serif;
+	text-shadow: 0 2px 1px #156903;
+	
+	-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility
+}
+
+#faq{
+	width: 100%;
+	position:relative;
+	background:#ffffff url(../images/contentBg.png) repeat-x;
+}
+#faq h1{
+	text-align:center;
+	text-decoration:underline;
+	font-weight: bold;
+	margin-top:10px;
+	margin-left:50px;
+	font-size:35px;
+	font-family: 'Lato', sans-serif;
+}
+#faq h2{
+	text-align:center;
+	text-decoration:underline;
+	color:#159F03;
+	font-weight: bold;
+	margin-top:10px;
+	margin-left:50px;
+	font-size:30px;
+	font-family: 'Lato', sans-serif;
+}
+#faq h3{
+	text-align:center;
+	margin-top:150px;
+	marin-left:50px;
+	padding-top:10px;
+	/*text-align:center;*/
+	margin-top:10px;
+	marin-left:10px;
+	font-size:25px;
+}
+#faq h4{
+	text-align:center;
+	margin-top:10px;
+	margin-left:50px;
+	font-size:20px;
+}
+
+#faq h5{
+	width:200px;
+	float:left;
+	text-align:center;
+	margin-left:70px;
+	font-size:15px;
+}
+
+#faq table{
+	margin:0 auto;
+	padding-bottom:50px;
+	width:800px;
+}
+#faq th,td{
+	width:400px;
+	height:50px;
+	text-align:center;
+}
+#faq li{
+	padding-top:6px;
+}
+#faq a{
+	color: #000000;
+
+}
+
+/*************************************************************************
 * Welcome
 *************************************************************************/
 
