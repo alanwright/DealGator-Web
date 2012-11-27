@@ -574,11 +574,7 @@ h1.signin a:hover{
 *************************************************************************/
 #about_head{
 	width: 100%;
-<<<<<<< HEAD
-	height:1600px;
-=======
 	position: relative;
->>>>>>> Finished About Us
 	margin-top: -2px;
 	background-color: #156903;
 	padding-bottom:15px;
@@ -634,7 +630,7 @@ h1.signin a:hover{
 	text-decoration:underline;
 	font-weight: bold;
 	margin-top:10px;
-	marin-left:50px;
+	margin-left:50px;
 	font-size:35px;
 	font-family: 'Lato', sans-serif;
 }
@@ -643,52 +639,46 @@ h1.signin a:hover{
 	text-decoration:underline;
 	font-weight: bold;
 	margin-top:10px;
-	marin-left:50px;
+	margin-left:50px;
 	font-size:30px;
 	font-family: 'Lato', sans-serif;
 }
 #about_pan h3{
-<<<<<<< HEAD
-	width:700px;
 	text-align:center;
 	margin-top:150px;
 	marin-left:50px;
 	padding-top:10px;
-=======
 	/*text-align:center;*/
 	margin-top:10px;
 	marin-left:10px;
->>>>>>> Finished About Us
 	font-size:25px;
 }
 #about_pan h4{
 	text-align:center;
 	margin-top:10px;
-	marin-left:50px;
+	margin-left:50px;
 	font-size:20px;
 }
 #about_pan_pic{
 	width:150px;
 	height:150px;
-	float:left;
-	position: relative;
 	margin:0 auto;
 	margin-top:10px;
 }
-<<<<<<< HEAD
 #about_pan h5{
 	width:200px;
 	float:left;
 	text-align:center;
 	margin-left:70px;
 	font-size:15px;
-=======
+}
+
 #about_pan table{
 	margin:0 auto;
 	padding-bottom:50px;
 	width:800px;
 }
-about_pan th,td{
+#about_pan th,td{
 	width:400px;
 	height:50px;
 	text-align:center;
@@ -698,7 +688,7 @@ about_pan th,td{
 }
 #about_pan a{
 	color: #000000;
->>>>>>> Finished About Us
+
 }
 
 /*************************************************************************
