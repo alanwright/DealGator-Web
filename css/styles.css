@@ -126,8 +126,8 @@ h1.signin a:hover{
 
 #content{
 	width: 100%;
-	height: 400px;
 	position: relative;
+	padding-bottom:30px;
 	background-color: #156903;
 }
 
@@ -181,6 +181,76 @@ h1.signin a:hover{
 	background-position:2px 2px;
 }
 
+
+/*************************************************************************
+* Results
+*************************************************************************/
+#results{
+	width: 60%;
+	margin: 0 auto;
+	padding-top:10px;
+	background: #ffffff;
+}
+#results h1{
+	font-family: "Lato", sans-serif;
+	color:#000000;
+	text-align:center;
+	margin-bottom:10px;
+}
+#results_img{
+	width:100px;
+	height:100px;
+	margin:0 auto;
+}
+#results table{
+	padding:30px;
+}
+
+#results table, th, td{
+	border-collapse: collapse;
+	border: 1px solid black;
+	padding:5px 0;
+}
+
+#results th.header {   
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center left; 
+    padding: 4px 10px; 
+    /*border-right: 1px solid #dad9c7; */
+    margin-left: -1px; 
+} 
+
+#results table thead tr .header {
+	background-image: url(../images/sort/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+#results table thead tr .headerSortUp {
+	background-image: url(../images/sort/asc.gif);
+}
+#results table thead tr .headerSortDown {
+	background-image: url(../images/sort/desc.gif);
+}
+#results_icon{
+	height: 50x;
+	width: 50px;
+	padding-bottom:2px;
+	margin: 0 auto;
+}
+#results_icon_small{
+	height: 20px;
+	width: 20px;
+	margin: 0 auto;
+}
+#results span{
+	padding-left: 2px;
+	font-size: 12px;
+	text-align:center;
+}
 
 /******************************************************************************
 * Login
@@ -677,10 +747,12 @@ h1.signin a:hover{
 	margin:0 auto;
 	padding-bottom:50px;
 	width:800px;
+	border:none;
 }
-#about_pan th,td{
+#about_pan th, #about_pan td{
 	width:400px;
 	height:50px;
+	border:none;
 	text-align:center;
 }
 #about_pan li{
@@ -851,6 +923,7 @@ h1.signin a:hover{
 	width:100%;
 	height:100px; 
 	float:left;
+	padding-top: 10px;
 	position:relative;
 }
 
