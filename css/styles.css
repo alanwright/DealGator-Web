@@ -43,6 +43,7 @@ li{
 	list-style:none;
 }
 
+
 h1.title{
 	width:126px; 
 	height:30px; 
@@ -571,51 +572,96 @@ h1.signin a:hover{
 /*************************************************************************
 *About Us
 *************************************************************************/
+#about_head{
+	width: 100%;
+<<<<<<< HEAD
+	height:1600px;
+=======
+	position: relative;
+>>>>>>> Finished About Us
+	margin-top: -2px;
+	background-color: #156903;
+	padding-bottom:15px;
+}
+#about_head h1{
+	text-align:center;
+	width: 500px;
+	margin: 0 auto;
+	padding-top:10px;
+	font-size:64px;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	text-shadow: 0 2px 1px #156100;
+	font-weight:300px;
+	letter-spacing:-4px;
+	
+	border-bottom:#c9c9c9 solid 1px;
+	-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+#about_head_text{
+	width: 700px;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #156903;
+}
+#about_head_text h4{
+	text-align:center;
+	marin-left:50px;
+	font-size:20px;
+	color:#ffffff;
+	font-family: 'Droid Sans', sans-serif;
+	text-shadow: 0 2px 1px #156903;
+	
+	-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility
+}
+
 #about{
 	width: 100%;
-	height:1600px;
-	margin-top: -2px;
+	position:relative;
 	background:#ffffff url(../images/contentBg.png) repeat-x;
 }
 #about_pan{
-	width: 700px;
-	height:300px;
+	padding-bottom:20px;
 	position: relative;
 	margin: 0 auto;
-	padding-top: 40px;
+	padding-top: 10px;
 	font-family: 'Open Sans', sans-serif;
-	
 }
 #about_pan h1{
-	width:700px;
 	text-align:center;
 	text-decoration:underline;
 	font-weight: bold;
 	margin-top:10px;
 	marin-left:50px;
 	font-size:35px;
-	color: #159F03;
+	font-family: 'Lato', sans-serif;
 }
 #about_pan h2{
-	width:700px;
 	text-align:center;
 	text-decoration:underline;
 	font-weight: bold;
 	margin-top:10px;
 	marin-left:50px;
 	font-size:30px;
-	color: #5a5a5a;
+	font-family: 'Lato', sans-serif;
 }
 #about_pan h3{
+<<<<<<< HEAD
 	width:700px;
 	text-align:center;
 	margin-top:150px;
 	marin-left:50px;
 	padding-top:10px;
+=======
+	/*text-align:center;*/
+	margin-top:10px;
+	marin-left:10px;
+>>>>>>> Finished About Us
 	font-size:25px;
 }
 #about_pan h4{
-	width:700px;
 	text-align:center;
 	margin-top:10px;
 	marin-left:50px;
@@ -626,16 +672,33 @@ h1.signin a:hover{
 	height:150px;
 	float:left;
 	position: relative;
-	left: 50%;
-	margin-left: -400px;
+	margin:0 auto;
 	margin-top:10px;
 }
+<<<<<<< HEAD
 #about_pan h5{
 	width:200px;
 	float:left;
 	text-align:center;
 	margin-left:70px;
 	font-size:15px;
+=======
+#about_pan table{
+	margin:0 auto;
+	padding-bottom:50px;
+	width:800px;
+}
+about_pan th,td{
+	width:400px;
+	height:50px;
+	text-align:center;
+}
+#about_pan li{
+	padding-top:6px;
+}
+#about_pan a{
+	color: #000000;
+>>>>>>> Finished About Us
 }
 
 /*************************************************************************
