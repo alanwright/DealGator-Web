@@ -742,7 +742,7 @@ h1.signin a:hover{
 }
 #faq_pan{
 	padding-bottom:20px;
-	width:1280px;
+	width:800px;
 	position: relative;
 	margin: 0 auto;
 	padding-top: 10px;
@@ -769,13 +769,12 @@ h1.signin a:hover{
 }
 #faq_pan h3{
 	text-align:center;
-	margin-top:150px;
-	marin-left:50px;
+	margin-left:50px;
 	padding-top:10px;
+	padding-bottom:40px;
 	/*text-align:center;*/
-	margin-top:10px;
-	marin-left:10px;
-	font-size:25px;
+	margin-left:10px;
+	font-size:22px;
 }
 #faq_pan h4{
 	text-align:center;
