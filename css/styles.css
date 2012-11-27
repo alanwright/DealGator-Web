@@ -740,7 +740,15 @@ h1.signin a:hover{
 	position:relative;
 	background:#ffffff url(../images/contentBg.png) repeat-x;
 }
-#faq h1{
+#faq_pan{
+	padding-bottom:20px;
+	width:1280px;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+#faq_pan h1{
 	text-align:center;
 	text-decoration:underline;
 	font-weight: bold;
@@ -749,7 +757,7 @@ h1.signin a:hover{
 	font-size:35px;
 	font-family: 'Lato', sans-serif;
 }
-#faq h2{
+#faq_pan h2{
 	text-align:center;
 	text-decoration:underline;
 	color:#159F03;
@@ -759,7 +767,7 @@ h1.signin a:hover{
 	font-size:30px;
 	font-family: 'Lato', sans-serif;
 }
-#faq h3{
+#faq_pan h3{
 	text-align:center;
 	margin-top:150px;
 	marin-left:50px;
@@ -769,14 +777,14 @@ h1.signin a:hover{
 	marin-left:10px;
 	font-size:25px;
 }
-#faq h4{
+#faq_pan h4{
 	text-align:center;
 	margin-top:10px;
 	margin-left:50px;
 	font-size:20px;
 }
 
-#faq h5{
+#faq_pan h5{
 	width:200px;
 	float:left;
 	text-align:center;
@@ -784,20 +792,20 @@ h1.signin a:hover{
 	font-size:15px;
 }
 
-#faq table{
+#faq_pan table{
 	margin:0 auto;
 	padding-bottom:50px;
 	width:800px;
 }
-#faq th,td{
+#faq_pan th,td{
 	width:400px;
 	height:50px;
 	text-align:center;
 }
-#faq li{
+#faq_pan li{
 	padding-top:6px;
 }
-#faq a{
+#faq_pan a{
 	color: #000000;
 
 }
