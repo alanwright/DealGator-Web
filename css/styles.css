@@ -573,7 +573,7 @@ h1.signin a:hover{
 *************************************************************************/
 #about{
 	width: 100%;
-	height:1500px;
+	height:1600px;
 	margin-top: -2px;
 	background:#ffffff url(../images/contentBg.png) repeat-x;
 }
@@ -609,8 +609,9 @@ h1.signin a:hover{
 #about_pan h3{
 	width:700px;
 	text-align:center;
-	margin-top:10px;
+	margin-top:150px;
 	marin-left:50px;
+	padding-top:10px;
 	font-size:25px;
 }
 #about_pan h4{
@@ -623,15 +624,17 @@ h1.signin a:hover{
 #about_pan_pic{
 	width:150px;
 	height:150px;
+	float:left;
 	position: relative;
 	left: 50%;
 	margin-left: -400px;
 	margin-top:10px;
 }
 #about_pan h5{
-	width:500px;
+	width:200px;
+	float:left;
 	text-align:center;
-	marin-left:50px;
+	margin-left:50px;
 	font-size:15px;
 }
 
